@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ruleset name="RealPathChangeDetector">
+    <description>The coding standard for Realpath Change Detector component</description>
+    <file>./src</file>
+    <file>./tests</file>
+    <arg value="nps" />
+    <rule ref="PSR12"/>
+    <rule ref="Squiz.WhiteSpace.FunctionOpeningBraceSpace"/>
+</ruleset>

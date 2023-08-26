@@ -1,0 +1,23 @@
+{
+    "name": "totoro1302/realpath-change-detector",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Totoro1302\\RealpathChangeDetector\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Totoro1302"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.7",
+        "phpstan/phpstan": "^1.10",
+        "phpunit/phpunit": "^10.3"
+    }
+}
