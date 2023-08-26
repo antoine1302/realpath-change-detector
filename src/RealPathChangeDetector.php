@@ -1,5 +1,7 @@
 <?php
 
+namespace Totoro1302\RealpathChangeDetector;
+
 class RealPathChangeDetector
 {
     private readonly string $originalRealPath;
