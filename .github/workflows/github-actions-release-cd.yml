@@ -3,6 +3,7 @@ run-name: ${{ github.actor }} created a new release 🚀
 on:
   release:
     types: [ published ]
+  workflow_dispatch:
 jobs:
   New-Release-Action:
     runs-on: ubuntu-22.04
