@@ -1,0 +1,11 @@
+name: New Release CD
+run-name: ${{ github.actor }} created a new release 🚀
+on:
+  release:
+    types: [ published ]
+jobs:
+  New-Release-Action:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: New Release created ${{ github.repository }}...
+        run: echo "${{ github.ref }}"
